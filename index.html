@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumin-college-web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<section class="header">
+<nav>
+    <a href="index.html"><img src="images/logo3.png" ></a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSES</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+
+</nav>
+<div class="text-box">
+    <h1>MUMIN ONLINE COLLEGE</h1>
+    <p>“Believe in yourself and all that you are. <br>Know that there is something inside you that is greater than any obstacle.”</p>
+    <a href="" class="hero-btn">VISIT US TO KNOW MORE</a>
+</div>
+</section>
+
+
+<!--QAYBTAANI WAA PAGEKA COURSESKA -->
+<section class="course">
+    <h1>courses we Offer</h1>
+    <p>E-Learning examples in higher education</p>
+
+     <div class="row">
+        <div class="course-col">
+           <h3>Basic</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magni accusantium nisi velit nemo, odio, voluptas pariatur aperiam reiciendis, nam facilis harum esse modi! Minima, aperiam vero. Odio, cum dignissimos?</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magni accusantium nisi velit nemo, odio, voluptas pariatur aperiam reiciendis, nam facilis harum esse modi! Minima, aperiam vero. Odio, cum dignissimos?</p>
+         </div>
+
+         <div class="course-col">
+            <h3>Advanced</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magni accusantium nisi velit nemo, odio, voluptas pariatur aperiam reiciendis, nam facilis harum esse modi! Minima, aperiam vero. Odio, cum dignissimos?</p>
+         </div>
+     </div>
+
+
+</section>
+<!--CAMPUS SECTION-->
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>E-Learning examples in higher education</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">
+            <div class="Layer">
+                <h3>LONDON</h3>
+        </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="Layer">
+                <h3>NEWYORK</h3>
+        </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="Layer">
+                <h3>WASHINGTON</h3>
+        </div>
+        </div>
+    </div>
+
+</section>
+
+<!--about us section-->
+<section2>
+    <div class = "image">
+       <img src="images/online.jpg">
+    </div>
+
+
+
+    <div class = "content">
+        <h2>About Us</h2>
+        <span><!-- line here --></span>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Nobis aspernatur voluptas inventore ab voluptates nostrum minus illo laborum harum laudantium earum ut, <br> fugiat sequi explicabo facilis unde quos corporis!</p>
+        <ul class = "links">
+            <li><a href = "#">HOME</a></li>
+            <div class = "vertical-line"></div>
+            <li><a href = "#">SERVICE</a></li>
+            <div class = "vertical-line"></div>
+            <li><a href = "#">CONTACT</a></li>
+        </ul>
+        <ul class = "icons">
+            <li>
+                <i class = "fa fa-twitter"></i>
+            </li>
+            <li>
+                <i class = "fa fa-facebook"></i>
+            </li>
+            <li>
+                <i class = "fa fa-github"><a href="https://github.com/Kacabdev"></a></i>
+            </li>
+            <li>
+                <i class = "fa fa-pinterest"></i>
+            </li>
+        </ul>
+    </div>
+</section><br><br>
+<div class="credit">Made with <span style="color:tomato">❤</span> by KACABDEV</div>
+</body>
+</html>
+
+
+<!---HALKAAN WAA INYAR OO JS CODE AH KAANA CAAWINAAYO TOGGLE MENU GA SHAQADIISA--->
+
+
+<script>
+
+var navlinks = document.getElementById("navlinks");
+
+function showmenu(){
+    navlinks.style.right = "0";
+}
+
+function hidemenu(){
+    navlinks.style.right = "-200px";
+}
+</script>
+
+
+</body>
+</html>
